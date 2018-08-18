@@ -17,7 +17,7 @@ class Page {
 		Tpl::configure( $config );
 		$this->tpl = new Tpl;
 		$this->setData($this->options["data"]);
-		$this->tpl->draw("header");
+		$this->tpl->draw("header");	//Desenha o template na tela
 	}
 	private function setData($data = array())
 	{
